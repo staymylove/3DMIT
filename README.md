@@ -9,9 +9,9 @@ Official implementation of the paper: 3DMIT: 3D Multi-modal Instruction Tuning f
 # Setup
 
 To set up the environment, run the following commands:
-python >= 3.10
+
 ```bash
-conda create -n 3dmit python==3.10
+conda create -n 3dmit python==3.10.13
 conda activate 3dmit
 ```
 
