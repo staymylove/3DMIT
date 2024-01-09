@@ -48,6 +48,9 @@ If you find our work useful, please consider citing:
 
 # Acknowledge
 Our based code: https://github.com/OpenGVLab/LAMM
+
 https://github.com/Chat-3D/Chat-3D-v2
+
 https://github.com/Chat-3D/Chat-3D
+
 https://github.com/baaivision/Uni3D
