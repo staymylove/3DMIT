@@ -35,13 +35,11 @@ pip install -r requirements.txt
 # Citation
 If you find our work useful, please consider citing:
 ```
-@misc{li20243dmit,
-      title={3DMIT: 3D Multi-modal Instruction Tuning for Scene Understanding}, 
-      author={Zeju Li and Chao Zhang and Xiaoyan Wang and Ruilong Ren and Yifan Xu and Ruifei Ma and Xiangde Liu},
-      year={2024},
-      eprint={2401.03201},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{li20243dmit,
+  title={3DMIT: 3D Multi-modal Instruction Tuning for Scene Understanding},
+  author={Li, Zeju and Zhang, Chao and Wang, Xiaoyan and Ren, Ruilong and Xu, Yifan and Ma, Ruifei and Liu, Xiangde},
+  journal={arXiv preprint arXiv:2401.03201},
+  year={2024}
 }
 ```
 
