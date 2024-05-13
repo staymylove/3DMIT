@@ -17,7 +17,7 @@
 
 # Description
 
-Official implementation of the paper: 3DMIT: 3D Multi-modal Instruction Tuning for Scene Understanding
+Official implementation of the paper: 3DMIT: 3D Multi-modal Instruction Tuning for Scene Understanding. This paper is accepted by [ICME-3DMM](https://3dmm-icme2024.github.io/).
 
 # Setup
 
