@@ -1,0 +1,10 @@
+# ninja log v5
+0	12714	1700735865557345402	./src/model/EPCL/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/ball_query_gpu.o	67bbad89cf19ef0d
+2	12970	1700735865813343380	./src/model/EPCL/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/interpolate_gpu.o	6ebbfca494eedd92
+1	13009	1700735865861343001	./src/model/EPCL/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/group_points_gpu.o	7941ac4d23816aab
+3	13588	1700735866433338483	./src/model/EPCL/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/sampling_gpu.o	cd37d3a8c608541
+1	14135	1700735866969334250	./src/model/EPCL/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/group_points.o	d811b8e1effdb3f5
+3	14172	1700735866989334093	./src/model/EPCL/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/sampling.o	4db149ff6c29269d
+2	14193	1700735867041333682	./src/model/EPCL/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/interpolate.o	9704271ac7c78cb9
+0	14419	1700735867261331945	./src/model/EPCL/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/ball_query.o	4e27b876f49c7217
+1	14561	1700735867405330808	./src/model/EPCL/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/bindings.o	191490b315405bb
