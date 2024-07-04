@@ -53,7 +53,14 @@ For source 3D scene point clouds,
    ```
    
 For language instructions, there are tasks including VQA, VG, multi-choice, detection, conversations, etc.
-You can find them in 
+
+You can download them by this link:
+
+```bash
+https://drive.google.com/file/d/1s1ehz8Q6WX9bCghVNtL9sPeulb6886I0/view?usp=sharing
+```
+
+put them in this format:
 
 ```bash
 ./datasets/data/3D_Instruct/meta_file
