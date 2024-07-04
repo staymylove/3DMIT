@@ -38,7 +38,36 @@ pip install -r requirements.txt
 
 # 3D features
 
+for scannet: 
+```bash
+scannet_attributes.json      
+scannet_uni3d_feats_1024.pt
+scannet_train_attributes.pt  
+scannet_uni3d_feats.pt
+scannet_ulip2_feats.pt  
+```
 
+for 3rscan:
+```bash
+3rscan_attributes.json     
+3rscan_ulip2_feats.pt       
+3rscan_uni3d_feats_1024.pt  
+ ```
+
+
+
+# Model_zoo
+
+```bash
+src/
+├── model_zoo/
+│   ├── epcl_ckpts/
+│          ├── epcl_scannet_vit-L-14_256tokens_latest.pth 
+│   ├── vicuna-7b-v0
+│   ├── vicuna-13b-v0
+│   ├── llava1.6-7b
+│   └── llava1.6-13b
+```
 
 # Model
 ```bash
@@ -77,7 +106,9 @@ If you find our work useful, please consider citing:
 
 # Acknowledge
 
-Our based code: https://github.com/OpenGVLab/LAMM
+Our based code: 
+
+https://github.com/OpenGVLab/LAMM
 
 https://github.com/Chat-3D/Chat-3D-v2
 
