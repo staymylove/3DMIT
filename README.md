@@ -32,7 +32,38 @@ conda activate 3dmit
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
 ```
+
+# Data
+
+
+# 3D features
+
+
+
+# Model
+```bash
+only using scene info ：./src/model/3dmit-onlyscene-512.py
+using scene + objects info ：./src/model/3dmit.py
+using scene + objects + 2D imgs info ：./src/model/3dmit-scene+obj+img-512.py
+```
+
+# Run
+Train 3DMIT
+```bash
+bash ./src/scripts/3DMIT_training.sh
+```
+Eval 3DMIT
+for VQA/description/caption tasks
+```bash
+bash ./src/scripts/3DMIT_3D_Evaluation_7b.sh
+```
+for visual grounding task
+```bash
+python ./src/vg_eval_script.py
+```
+
 # Citation
+
 If you find our work useful, please consider citing:
 ```
 @article{li20243dmit,
@@ -45,6 +76,7 @@ If you find our work useful, please consider citing:
 
 
 # Acknowledge
+
 Our based code: https://github.com/OpenGVLab/LAMM
 
 https://github.com/Chat-3D/Chat-3D-v2
