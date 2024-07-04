@@ -34,11 +34,56 @@ pip install -r requirements.txt
 ```
 
 # Data
+Training data
+
+For source 3D scene point clouds,
+
+1) scannet
+   
+   you can download the processed 3D pcl files by this link:
+   ```bash
+   
+   ```
+   
+2) 3rscan
+   
+   you can download the 3D pcl files by its website:
+   ```bash
+   https://github.com/WaldJohannaU/3RScan
+   ```
+   
+For language instructions, there are tasks including VQA, VG, multi-choice, detection, conversations, etc.
+You can find them in 
+
+```bash
+./datasets/data/3D_Instruct/meta_file
+    ├── VQA_all_84w.json  # there are all the data, 840K from 3rscan and scannet
+    ├── VQA_all_75w.json  # only from scannet, 740K 3d-text pairs
+    ├── VQA_3rscan.json   # 9572 3d-text pairs from 3rscan
+```
+
+
+
+
+Eval data
+
+For language instructions, there are 4 eval tasks, you can find them in 
+
+```bash
+./datasets/data/3D_Benchmark/meta_file/
+    ├── VQA
+    ├── multi-choice
+    ├── visual grounding
+          ├── obj location prediction
+          ├── obj index prediction
+    ├── detection
+```
+
 
 
 # 3D features
 
-for scannet: 
+For scannet: 
 ```bash
 scannet_attributes.json      
 scannet_uni3d_feats_1024.pt
@@ -47,14 +92,16 @@ scannet_uni3d_feats.pt
 scannet_ulip2_feats.pt  
 ```
 
-for 3rscan:
+For 3rscan:
 ```bash
 3rscan_attributes.json     
 3rscan_ulip2_feats.pt       
 3rscan_uni3d_feats_1024.pt  
  ```
-
-
+download link: 
+```bash
+https://drive.google.com/file/d/12kXvxn9iYI20l-5k6MEpyONr1sEGr2o2/view?usp=sharing
+ ```
 
 # Model_zoo
 
@@ -70,10 +117,20 @@ src/
 ```
 
 # Model
+
+
+only using scene info 
 ```bash
-only using scene info ：./src/model/3dmit-onlyscene-512.py
-using scene + objects info ：./src/model/3dmit.py
-using scene + objects + 2D imgs info ：./src/model/3dmit-scene+obj+img-512.py
+./src/model/3dmit-onlyscene-512.py
+```
+
+using scene + objects info
+```bash
+./src/model/3dmit.py
+```
+using scene + objects + 2D imgs info
+```bash
+./src/model/3dmit-scene+obj+img-512.py
 ```
 
 # Run
