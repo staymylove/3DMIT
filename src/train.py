@@ -212,7 +212,7 @@ def main(**args):
         logging.info("xxx enable xformers attention.")
         replace_llama_attn_with_xformers_attn()
 
-    train_data, train_iter, sampler = load_dataset(args)
+    train_data, train_iter, sampler = load_3DMIT_dataset(args)
 
     length = (
         args["epochs"]
