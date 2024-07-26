@@ -123,6 +123,24 @@ src/
 │   └── llava1.6-13b
 ```
 
+You can download the epcl checkpoint by this link:
+```bash
+https://drive.google.com/file/d/177yY53BGMELlVFWlmHYArE0HlCFsCntW/view?usp=sharing
+ ```
+
+# Ckpt & result
+
+For the result of 3DMIT(Vicuna-7b) with Ulip2 :
+```bash
+https://drive.google.com/file/d/1Debdd_ZsjiAPhlmrnSgjotPO5XMBcm1T/view?usp=sharing
+```
+
+For the result of 3DMIT(Vicuna-7b) with Uni3D :
+```bash
+https://drive.google.com/file/d/1qTrEtpfG2L-luOcfX7L9JySHOeDjoAtr/view?usp=sharing
+ ```
+
+
 # Model
 
 
